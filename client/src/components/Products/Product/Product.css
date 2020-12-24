@@ -1,0 +1,22 @@
+.product-wrapper {
+    border: 1px solid darkgray;
+    padding: 10px;
+}
+
+.product-wrapper h3 {
+    font-size: 18px;
+}
+
+.product-wrapper p {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+    .product-wrapper h3 {
+        font-size: 22px;
+    }
+
+    .product-wrapper p {
+        font-size: 18px;
+    }
+}
